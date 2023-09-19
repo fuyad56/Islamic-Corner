@@ -1,1 +1,1 @@
-Live Link: 
+Live Link: https://islamic-corner.netlify.app/

@@ -36,7 +36,7 @@ const Navbar = () => {
           <ul className="flex md:hidden justify-between items-center">
             <li
               className={`${
-                activeLink === "/" ? "bg-[#183D3D] text-gray-200" : ""
+                activeLink === "/" ? "bg-[#183D3D] text-white" : ""
               } text-slate-700 py-1 px-4 rounded`}
             >
               <Link to={"/"} onClick={handleLinkClick}>
@@ -45,7 +45,7 @@ const Navbar = () => {
             </li>
             <li
               className={`${
-                activeLink === "/products" ? "bg-[#183D3D] text-gray-200" : ""
+                activeLink === "/products" ? "bg-[#183D3D] text-white" : ""
               } text-slate-700 py-1 px-4 rounded`}
             >
               <Link to={"/products"} onClick={handleLinkClick}>
@@ -54,7 +54,7 @@ const Navbar = () => {
             </li>
             <li
               className={`${
-                activeLink === "/deals" ? "bg-[#183D3D] text-gray-200" : ""
+                activeLink === "/deals" ? "bg-[#183D3D] text-white" : ""
               } text-slate-700 py-1 px-4 rounded`}
             >
               <Link to={"/deals"} onClick={handleLinkClick}>
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
             <li
               className={`${
-                activeLink === "/orders" ? "bg-[#183D3D] text-gray-200" : ""
+                activeLink === "/orders" ? "bg-[#183D3D] text-white" : ""
               } text-slate-700 py-1 px-4 rounded`}
             >
               <Link to={"/orders"} onClick={handleLinkClick}>
