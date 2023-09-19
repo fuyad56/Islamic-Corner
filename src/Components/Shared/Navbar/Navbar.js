@@ -25,7 +25,10 @@ const Navbar = () => {
     <nav className="border-b shadow-lg static">
       <div className="flex justify-between items-center py-[30px] z-10 desktop:mx-[200px] laptop:mx-[120px] tablet:mx-[80px] phone:mx-[30px]">
         <div>
-          <h1 className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl font-bold text-[#183D3D]" style={{fontFamily: "Croissant One"}}>
+          <h1
+            className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl font-bold text-[#183D3D]"
+            style={{ fontFamily: "Croissant One" }}
+          >
             Islamic Corner
           </h1>
         </div>
