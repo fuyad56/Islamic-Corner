@@ -90,7 +90,7 @@ const Navbar = () => {
               <ul className="text-center shadow-xl bg-transparent rounded-e-3xl px-16 py-20 h-full">
                 <li
                   className={`${
-                    activeLink === "/" ? "bg-[#183D3D] text-slate-300" : ""
+                    activeLink === "/" ? "bg-[#183D3D] text-white" : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
                   <Link to={"/"} onClick={handleLinkClick}>
@@ -100,7 +100,7 @@ const Navbar = () => {
                 <li
                   className={`${
                     activeLink === "/products"
-                      ? "bg-[#183D3D] text-slate-300"
+                      ? "bg-[#183D3D] text-white"
                       : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
@@ -110,7 +110,7 @@ const Navbar = () => {
                 </li>
                 <li
                   className={`${
-                    activeLink === "/deals" ? "bg-[#183D3D] text-slate-300" : ""
+                    activeLink === "/deals" ? "bg-[#183D3D] text-white" : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
                   <Link to={"/deals"} onClick={handleLinkClick}>
@@ -120,7 +120,7 @@ const Navbar = () => {
                 <li
                   className={`${
                     activeLink === "/orders"
-                      ? "bg-[#183D3D] text-slate-300"
+                      ? "bg-[#183D3D] text-white"
                       : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
