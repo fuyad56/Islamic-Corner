@@ -86,8 +86,8 @@ const Navbar = () => {
           </button>
 
           {menu && (
-            <div className="text-lg font-medium absolute top-20 left-0 h-full">
-              <ul className="text-center border-r bg-transparent rounded-e-3xl px-16 py-20 h-full">
+            <div className="text-lg font-medium absolute top-[90px] left-0 h-full">
+              <ul className="text-center border-r bg-transparent px-16 py-20 h-full">
                 <li
                   className={`${
                     activeLink === "/" ? "bg-[#183D3D] text-white" : ""
