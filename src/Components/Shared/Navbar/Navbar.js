@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="border-b shadow-lg static">
+    <nav className="border-b static">
       <div className="flex justify-between items-center py-[30px] z-10 desktop:mx-[200px] laptop:mx-[120px] tablet:mx-[80px] phone:mx-[30px]">
         <div>
           <h1
@@ -87,7 +87,7 @@ const Navbar = () => {
 
           {menu && (
             <div className="text-lg font-medium absolute top-20 left-0 h-full">
-              <ul className="text-center shadow-xl bg-transparent rounded-e-3xl px-16 py-20 h-full">
+              <ul className="text-center border-r bg-transparent rounded-e-3xl px-16 py-20 h-full">
                 <li
                   className={`${
                     activeLink === "/" ? "bg-[#183D3D] text-white" : ""
@@ -99,9 +99,7 @@ const Navbar = () => {
                 </li>
                 <li
                   className={`${
-                    activeLink === "/products"
-                      ? "bg-[#183D3D] text-white"
-                      : ""
+                    activeLink === "/products" ? "bg-[#183D3D] text-white" : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
                   <Link to={"/products"} onClick={handleLinkClick}>
@@ -119,9 +117,7 @@ const Navbar = () => {
                 </li>
                 <li
                   className={`${
-                    activeLink === "/orders"
-                      ? "bg-[#183D3D] text-white"
-                      : ""
+                    activeLink === "/orders" ? "bg-[#183D3D] text-white" : ""
                   } text-slate-700 py-1 px-4 rounded my-4`}
                 >
                   <Link to={"/orders"} onClick={handleLinkClick}>
