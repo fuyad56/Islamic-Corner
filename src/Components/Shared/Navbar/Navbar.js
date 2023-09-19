@@ -77,7 +77,7 @@ const Navbar = () => {
         </div>
 
         <div className="desktop:hidden laptop:block">
-          <button onClick={handleToggle} className="text-xl">
+          <button onClick={handleToggle} className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl">
             {menu ? (
               <FontAwesomeIcon icon={faXmark} />
             ) : (
