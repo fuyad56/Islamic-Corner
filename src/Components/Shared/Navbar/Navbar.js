@@ -25,12 +25,13 @@ const Navbar = () => {
     <nav className="border-b static">
       <div className="flex justify-between items-center py-[30px] z-10 desktop:mx-[200px] laptop:mx-[120px] tablet:mx-[80px] phone:mx-[30px]">
         <div>
-          <h1
+          <Link
+            to={"/"}
             className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl font-bold text-[#183D3D]"
             style={{ fontFamily: "Croissant One" }}
           >
             Islamic Corner
-          </h1>
+          </Link>
         </div>
         <div className="text-lg font-medium w-[540px] hidden desktop:block laptop:hidden">
           <ul className="flex md:hidden justify-between items-center">
@@ -77,7 +78,10 @@ const Navbar = () => {
         </div>
 
         <div className="desktop:hidden laptop:block">
-          <button onClick={handleToggle} className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl">
+          <button
+            onClick={handleToggle}
+            className="desktop:text-4xl laptop:text-3xl tablet:text-2xl phone:text-xl"
+          >
             {menu ? (
               <FontAwesomeIcon icon={faXmark} />
             ) : (
@@ -86,7 +90,7 @@ const Navbar = () => {
           </button>
 
           {menu && (
-            <div className="text-lg font-medium absolute top-[90px] left-0 h-full">
+            <div className="text-lg font-medium bg-white absolute top-[90px] left-0 h-full">
               <ul className="text-center border-r bg-transparent px-16 py-20 h-full">
                 <li
                   className={`${
