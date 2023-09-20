@@ -6,6 +6,7 @@ import Deals from "./Components/Deals/Deals/Deals";
 import Orders from "./Components/Orders/Orders/Orders";
 import Login from "./Components/Registration/Login/Login";
 import Error from "./Components/Shared/Error/Error";
+import Books from "./Components/Products/Books/Books";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/books" element={<Books />} />
           <Route path="/deals" element={<Deals />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/login" element={<Login />} />

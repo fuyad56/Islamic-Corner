@@ -14,7 +14,7 @@ const Error = () => {
             <h3 className="text-3xl font-semibold text-slate-800 pb-2 tablet:text-2xl phone:text-xl mt-1">
               404 - page note found
             </h3>
-            <p className="text-md font-medium text-slate-600 pb-4 laptop:w-[500px]">
+            <p className="text-md font-medium text-slate-600 pb-4 laptop:w-[500px] tablet:w-[450px]">
               The page you are looking for might have been removed had its name
               changed or is temporarily unavailable.
             </p>
